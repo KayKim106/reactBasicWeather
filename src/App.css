@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.container{
+  width:80%;
+  height:80vh;
+  background: orange;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.title-page{
+  top:50%;
+  text-align:center;
+  transform: translateY(-50%);
+}
+input{
+  width:35%;
+  background:transparent;
+  border-style:none;
+  opacity:0.8;
+  margin-right:15px;
+  box-shadow:0 5px;
+  padding:10px;
+  font-weight: bold;
+  font-size:2rem;
+  outline: none;
+  color:almond;
+}
+.form-page{
+  top:10%;
+}
+.weatherBtn{
+  height:50px;
+  width:auto;
+  transition:0.5s;
+  background:rgba(151, 63, 28, 0.897);
+  color:white;
+  border:0px none;
+  font-weight: bold;
+}
+.weatherBtn:hover{
+  background:darkorange;
+  color:white;
+  font-weight: bold;
+}
+.weather-container{
+  margin:0 auto;
+  padding-top:50px;
+}
+ul li{
+  list-style: none;
+  margin:50px 0 50px 0;
+  font-size:30px;
+  color:rgba(151, 63, 28, 0.897);
+}
